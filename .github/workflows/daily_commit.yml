@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Create a Commit (22f1001202@ds.study.iitm.ac.in)
+      - name: Commit step - 22f1001202@ds.study.iitm.ac.in
         run: |
           echo "Last run: $(date)" > last-run.txt
           git config --global user.name "GitHub Action"
